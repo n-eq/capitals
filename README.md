@@ -3,6 +3,7 @@
 Capitals is a small Bash project created in order to add some entertainment while working on the terminal, by learning some capitals of the world.
 
 Example:
+
 ![alt tag](https://github.com/Marrakchino/capitals/blob/master/capitals_ex.png)
 
 The countries and their respective capital are stored in the file capitals.txt.
