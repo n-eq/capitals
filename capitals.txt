@@ -175,7 +175,7 @@ Syria:Damascus
 Taiwan:Taipei
 Taiwan:Taipei
 Tajikistan:Dushanbe
-Tanzania:Dar es Salaam: Dodoma
+Tanzania:Dodoma
 Thailand:Bangkok
 Togo:Lome
 Tonga:Nuku’alofa
