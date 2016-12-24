@@ -15,7 +15,7 @@ Barbados:Bridgetown
 Belarus:Minsk
 Belgium:Brussels
 Belize:Belmopan
-Benin:Porto Novo: Cotonou
+Benin:Porto Novo
 Bhutan:Thimphu
 Bolivia:La Paz and Sucre
 Bosnia and Herzegovina:Sarajevo
@@ -68,7 +68,7 @@ Greece:Athens
 Grenada:St George’s
 Guatemala:Guatemala
 Guinea:Conakry
-Guinea-Bissau:
+Guinea-Bissau:Bissau
 Guyana:Georgetown
 Haiti:Port-au-Prince
 Honduras:Tegucigalpa
@@ -80,7 +80,7 @@ Iran:Tehran
 Iraq:Baghdad
 Israel:Jerusalem
 Italy:Rome
-Jamaica:Kingston: Jamaica
+Jamaica:Kingston
 Japan:Tokyo
 Jordan:Amman
 Kazakhstan:Astana
@@ -175,7 +175,7 @@ Syria:Damascus
 Taiwan:Taipei
 Taiwan:Taipei
 Tajikistan:Dushanbe
-Tanzania:Dodoma
+Tanzania:Dar es Salaam
 Thailand:Bangkok
 Togo:Lome
 Tonga:Nuku’alofa
