@@ -80,7 +80,7 @@ Iran:Tehran
 Iraq:Baghdad
 Israel:Jerusalem
 Italy:Rome
-Jamaica:Kingston
+Jamaica:Kingston: Jamaica
 Japan:Tokyo
 Jordan:Amman
 Kazakhstan:Astana
@@ -175,7 +175,7 @@ Syria:Damascus
 Taiwan:Taipei
 Taiwan:Taipei
 Tajikistan:Dushanbe
-Tanzania:Dar es Salaam
+Tanzania:Dodoma
 Thailand:Bangkok
 Togo:Lome
 Tonga:Nuku’alofa

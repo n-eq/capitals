@@ -1,11 +1,5 @@
 #!/bin/bash
-#########################################################
-# File: capitals.sh
-# Author: Nabil Elqatib
-# Email: nabilelqatib@gmail.com
-# Date: 17/12/2016
-# Description: 
-#########################################################
+
 # {MYVAR%pattern} delete shortest match of pattern from the beginning
 # {MYVAR##pattern} delete longest match of pattern from the beginning
 # {MYVAR%pattern}
@@ -59,13 +53,14 @@ country=${lineChosen%:*}
 capital=${lineChosen##*:}
 countryLowerCase=$(echo "$country"|tr '[:upper:]' '[:lower:]')
 
-echo -e "What's the capital of $country?"
-sleep 5
-echo -e "$selectedColor$capital\033[m"
-# sleep 1
+read -e -p  "What's the capital of $country? " answer
+if [ "$answer" == "$capital" ]; then
+	echo "CORRECT!"
+else
+	echo "FALSE!"
+fi
 
-# for some reason there is a syntax problem in this line..
-# if ! [ -s "$HERE/facts/$countryLowerCase.txt" ]; then
-getFacts "$countryLowerCase"	
-# fi
+if ! test -s "$HERE/facts/$countryLowerCase.txt" ; then
+	getFacts "$countryLowerCase"	
+fi
 showSomeRandomFact "$countryLowerCase"
